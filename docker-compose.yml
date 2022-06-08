@@ -1,0 +1,9 @@
+version: "3"
+services:
+  gas:
+    build: .
+    container_name: "gas"
+    tty: true
+    stdin_open: true
+    volumes:
+      - ./gas:/gas
